@@ -2,8 +2,8 @@
 <extension type="module" version="3.1.0" client="site" method="upgrade">
     <name>Dagsen Weekly</name>
     <author>Axel Latvala / Teknologföreningen</author>
-    <creationDate>October 2015</creationDate>
-    <copyright>Copyright (C) 2015 Teknologföreningen. All rights reserved.</copyright>
+    <creationDate>January 2016</creationDate>
+    <copyright>Copyright (C) 2016 Teknologföreningen. All rights reserved.</copyright>
     <license>MIT; see LICENSE.txt</license>
     <authorEmail>webmaster@teknolog.fi</authorEmail>
     <authorUrl>teknolog.fi</authorUrl>

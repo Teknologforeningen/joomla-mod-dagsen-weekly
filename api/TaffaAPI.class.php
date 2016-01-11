@@ -15,6 +15,7 @@ define('TAFAPI_SAT_SUN_OPEN_H', 0);
 define('TAFAPI_SAT_SUN_OPEN_MIN', 0);
 define('TAFAPI_SAT_SUN_CLOSE_H', 0);
 define('TAFAPI_SAT_SUN_CLOSE_MIN', 0);
+
 /**
  * taffaAPI is a class for easy access to the 
  * taffa API located at http://api.teknolog.fi/taffa/
@@ -62,6 +63,15 @@ class taffaAPI
     public function getToday()
     {
         return $this->get('html/0');
+    }
+    
+    /**
+     * Gets all foods from today +5 days
+     * @return string a HTML string of the foods comming in the next five days.
+     */
+    public function getWeek()
+    {
+        return $this->get('html/week');
     }
     
     /**
