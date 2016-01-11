@@ -1,2 +1,2 @@
 # joomla-mod-dagsen-weekly
-Displays the weekly menu for Täffä
+Joomla module to display the weekly Täffä menu.
