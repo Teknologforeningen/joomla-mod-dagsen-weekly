@@ -1,4 +1,9 @@
 <?php
 // No direct access
 defined('_JEXEC') or die; ?>
-<?php echo "Dagsens meny: ";echo $menuHTML;  ?>
+
+<?php
+    /**
+     * @todo This file is not getting run. Maybe something is overriding it..?
+     */
+    echo $menuHTML; ?>
