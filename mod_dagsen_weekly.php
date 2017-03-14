@@ -12,7 +12,10 @@
 defined('_JEXEC') or die;
 // Include the syndicate functions only once
 require_once dirname(__FILE__) . '/helper.php';
-$taffaAPI = new taffaAPI('sv');
+$joomlaLangMap = Array('sv-SE' => 'sv', 'fi-FI' => 'fi', 'en-GB' => 'en');
+$joomlaLang = JFactory::getLanguage();
+$joomlaLangTag = $joomlaLang->getTag();
+$taffaAPI = new taffaAPI($joomlaLangMap[$joomlaLangTag]);
 $menuHTML = $taffaAPI->getWeek();
 /**
  * @todo Comment out the echo below, should be outputted by tmpl/default.php, but this file is not getting ran
